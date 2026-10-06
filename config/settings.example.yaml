@@ -1,3 +1,15 @@
 deepL_api_key: "POSA_AQUI_LA_TEUA_CLAU:fx"
 idioma_origen: "EN"
 idiomes_desti: ["ca", "es"]
+
+
+rutes:
+  entrada: "data"
+  sortida: "output"
+  memoria: ".cache/traduccions.json"
+  termes_protegits: "config/protegits.txt"
+
+  traduccio:
+  mida_batch: 45
+  pausa_entre_batchs: 0.3
+  mostrar_progres_cada: 200
