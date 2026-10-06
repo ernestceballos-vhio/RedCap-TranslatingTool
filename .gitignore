@@ -1,0 +1,37 @@
+# Entorns virtuals
+.venv/
+venv/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+
+# Dades i outputs (NO es pujen mai)
+data/raw/*
+data/processed/*
+output/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+!output/**/.gitkeep
+
+# Configuració amb secrets
+config/settings.yaml
+
+# Memòria de traduccions (és regenerable)
+.traduccions_cache.json
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+
+# Sistema
+.DS_Store
+Thumbs.db
+
+# REDCap originals (mai al repo!)
+*.csv

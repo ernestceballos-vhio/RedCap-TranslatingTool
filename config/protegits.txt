@@ -1,0 +1,20 @@
+# Noms de projectes
+Brave
+Serpentine
+Optimisticc
+Durec
+Fusomap
+Fusomap Follow up
+
+# Altres noms propis
+Covid Microbiome
+Covid Vaccine
+Depoteca Colon
+Depoteca Recto
+Kidney Microbiome
+Mama Microbiome
+Pancreas Microbiome
+
+# Instruments
+pid623
+kit_traceability
