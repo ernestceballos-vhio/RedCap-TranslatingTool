@@ -38,7 +38,7 @@ pip install -r requirements.txt
 
 ## Ús
 
-1. Posa el CSV de REDCap a `data/raw/`
+1. Posa el CSV de REDCap a `data`
 2. Executa:
    ```bash
    python -m traduccio_redcap data/raw/REDCapTranslation.csv ca es
@@ -50,12 +50,9 @@ pip install -r requirements.txt
 
 ```
 config/    → configuració
-data/raw/  → fitxers REDCap originals
+data/  → fitxers REDCap originals
 output/    → traduccions generades
 src/       → codi font
 docs/      → documentació
 ```
 
-## Llicència
-
-MIT
